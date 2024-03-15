@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_allMatches">
+
+    <fragment
+        android:id="@+id/nav_allMatches"
+        android:name="android.com.example.gmaildemo.AllMatches"
+        android:label="@string/all_matches"
+        tools:layout="@layout/fragment_all_matches" />
+
+    <fragment
+        android:id="@+id/nav_saveMatches"
+        android:name="android.com.example.gmaildemo.SaveMatches"
+        android:label="@string/save_matches"
+        tools:layout="@layout/fragment_save_matches" />
+
+</navigation>
